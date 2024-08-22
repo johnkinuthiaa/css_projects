@@ -1,0 +1,113 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: #fff7f7;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,メイリオ,Meiryo,ＭＳ Ｐゴシック,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 12px;
+}
+.navigation-bar{
+    display: block;
+    margin-top:20px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+nav>ul>li{
+    margin-left: 50px;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color:black;
+}
+.pin-icon>img{
+    border-radius:50% ;
+    height: 30px;
+    width: 30px;
+    margin-left: 2px;
+}
+input[type="search"]{
+    border-radius: 150px;
+    border:1px solid gray;
+    color:gray;
+    padding:10px;
+    width: 1400px;
+}
+input[type="search"]:active{
+    border: none;
+    color: #333;
+}
+.notifications{
+    display: flex;
+    margin-left: 0px;
+}
+.notifications img{
+    height: 20px;
+    width: 20px;
+}
+.notification-button{
+    border: none;
+}
+.messages img{
+    height: 20px;
+    width: 20px;
+}
+.messages-button{
+    border: none;
+    margin-left: 10px;
+}
+.home-button,
+.create-button{
+    background-color: black;
+    border-radius: 15%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.red-dot{
+    color: red;
+    border-radius: 50px;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+.create{
+    font-weight: bold;
+    font-size: 20px;
+}
+nav{
+    margin-bottom: 10px;
+}
+.main{
+    display: block;
+    margin: 10px 20px 10px 20px;
+}
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: masonry;
+}
+/* .image-container{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.img{
+    padding: 10px;
+}
+.img>img{
+    border-radius: 6%;
+    object-fit: cover;
+    width: 236px;
+}
+.img>video{
+    border-radius: 10%;
+    object-fit: cover;
+}

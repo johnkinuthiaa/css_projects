@@ -1,0 +1,17 @@
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,minmax(150px,auto));
+    gap:10px;
+}
+.sidebar{
+    grid-row: 1/7;
+    grid-column: 1/2;
+    background-color: aqua;
+    position: sticky;
+}
+.home-content{
+    grid-row: 1/7;
+    grid-column: 2/7;
+    background-color: gray;
+}
