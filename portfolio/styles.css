@@ -315,9 +315,11 @@ input[type="search"]{
     font-size: 20px;
     font-weight: bolder;
     text-align: center;
+    transition:ease-in-out 500ms;
 }
 .software-developer{
     color: rgb(101, 101, 101);
+    transition:ease-out 500ms;
 }
 
 .about-button,
